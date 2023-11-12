@@ -1,0 +1,16 @@
+Ev6/Ev6wU
+
+Ev6 is a prototype OS that aims to improve overall system reliability by increasing tolerance to ECC-uncorrectable errors in the OS kernel area.
+
+Ev6's approach is to recover memory errors at the granularity of the memory object.
+
+Ev6 recovers memory errors in the kernel area transparently from the user space, on the other hand, Ev6wU (Ev6 with User Cooperation) dares to eliminate transparency from the user space and enhances the recoverability by linking with the user space.
+
+For more info about Ev6, please read the published proceedings (https://ieeexplore.ieee.org/document/9978974).
+For more info about Ev6wU, please wait for the upcoming academic journal.
+
+
+LICENSE
+
+Among the files and source code that constitute Ev6, the copyright of the files implemented by Takumi IGUCHI and the parts of the modified code belongs to Takumi IGUCHI, and the rest belongs to the developers of xv6.
+For more details, please see the LICENSE file. 
